@@ -1,5 +1,6 @@
 package main
 
+// 顺序表
 import (
 	"errors"
 	"fmt"
@@ -78,7 +79,9 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	seqList.InsertList(90, 2)
+	for i := 0; i < 1; i++ {
+		seqList.InsertList(90, 2)
+	}
 	//seqList.DeleteList(2)
 	seqList.SeqListPrint()
 }
